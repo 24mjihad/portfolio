@@ -1,4 +1,66 @@
-ul {
-    list-style-type: none;
-    display:inline-flex;
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,500&display=swap');
+body {
+    background-image: url('homebg\(1\).jpg');
+    background-repeat: no-repeat;
 }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10%;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0px 0px 20px 13px rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(25px);
+  }
+  
+  
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Archivo', sans-serif;
+    font-size: 20px;
+  }
+  
+  .navbar {
+    position:-webkit-sticky;
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar li {
+    padding: 0px 20px;
+  }
+  
+  
+  .navbar li a:hover {
+    color: orangered;
+  }
+ .middle {
+
+    transition: all .5s ease 0s;
+} 
+.middle:hover {
+
+    margin-inline: 5px;
+    transition: all .5s ease 0s;
+} 
+  
+  
+  #square {
+    width: 690px;
+    height: 690px;
+    left: calc(50% - 690px/2 - 188px);
+    top: calc(50% - 690px/2 - 53px);
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 20px 12px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(25px);
+    }
+  
