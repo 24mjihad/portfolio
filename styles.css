@@ -16,7 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding: 30px 10%;
+    padding: 10px 20px;
 }
 
 li, a, button {
@@ -27,13 +27,14 @@ li, a, button {
 
 .logo {
     cursor: pointer;
-    
+    left: auto;
 }
 
 .nav_links {
     list-style: none;
     text-decoration-style: none;
     text-decoration: none;
+    padding: 10px;
 }
 li a {
     color: rgba(0, 21, 51, 0.6);
@@ -55,16 +56,18 @@ li a:focus {
     transition: all 0.3s ease 0s;
 }
 button {
+    font-size: 15px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 30px 25px;
+    padding: 25px 20px;
     
     position: static;
-    width: 158px;
-    height: 43px;
-    left: 137px;
+    width: 140px;
+    height: 20px;
+    left: 120px;
+    right: auto;
     top: 0px;
     
     background: #FFFFFF;
@@ -75,16 +78,25 @@ button {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px 0px;
-cursor: pointer;
+    margin: 5px 5px;
+    cursor: pointer;
+    
 }
 
 .buttontext {
     color: #3B82F6;
+    
 }
 
 button:hover {
     background-color: #193766;
+    
 }
+.cta {
+    stroke-opacity: 0;
+    padding: 20px 20px;
+    max-height: 80px;
+    right: auto;
+    top: auto;
 
-
+}
