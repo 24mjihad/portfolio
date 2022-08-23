@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins&display=swap');
 body {
     background-image: url(bg.jpg);
     background-repeat: no-repeat;
@@ -6,15 +6,15 @@ body {
     text-align: center;
 }
 .major {
-    max-width: 700px;
+    max-width: 800px;
     margin: auto;
     text-align: left;
 }
 
 h1 {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
     color: white;
+    font-size: 25px;
 }
 
 h2 {
@@ -30,43 +30,49 @@ h3 {
     font-weight: normal;
 }
 li {
+    color: #FFFFFF;
     font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
     font-weight: normal;
 }
 .taskbar {
     list-style-type: none;
-    display:inline-flex;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .taskbar a {
-margin: 20px;
+margin:30px;
 }
 a {
     text-decoration: none;
     color: white;
 }
 .name {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 18px;
 }
 .btn {
-    padding: 7px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
     font-weight: bold;
     color: #1B1B1B;
     background: #FBD38D;
     border-radius: 5px;
     outline: none;
+
 }
 .btn:hover {
     background-color: #F6AD55;
 }
 
 .card {
-
+    text-align: center;
     margin-top: 20px;
-    width: 500px;
+    width: 600px;
     height: 160px;
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid #FFFFFF;
@@ -74,17 +80,53 @@ a {
     border-radius: 10px;
     display:inline-flex;
 }
-.card h1 {
-
-}
 
 #box-content {
-    margin-left: 30px;
+    margin-left: 40px;
+    max-width: 600px;
 }
 
 .prf {
+    margin-left: 65px;
     border-radius: 10px;
     border: 1px solid #FFFFFF;
 }
-.p2 {
+
+#title {
+letter-spacing: 2px;
+margin-top: 40px;
+font-style:normal;
+font-size: 20px;
+margin-bottom: 20px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+display: flex;
+align-items: center;
+justify-content: center;
+
 }
+
+.content {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.last {
+    color: #969696;  
+    margin-top: 20px;
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p1 {
+    margin-top: 10px;
+}
+
