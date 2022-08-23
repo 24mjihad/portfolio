@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 body {
     background-image: url(bg.jpg);
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     font-size: 25px;
 }
@@ -48,11 +48,6 @@ a {
     text-decoration: none;
     color: white;
 }
-.name {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-}
 .btn {
     padding-bottom: 7px;
     padding-top: 7px;
@@ -63,7 +58,7 @@ a {
     background: #FBD38D;
     border-radius: 5px;
     outline: none;
-
+    
 }
 .btn:hover {
     background-color: #F6AD55;
@@ -74,7 +69,7 @@ a {
     margin-top: 20px;
     width: 600px;
     height: 160px;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.1);
     border: 1px solid #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -93,23 +88,23 @@ a {
 }
 
 #title {
-letter-spacing: 2px;
-margin-top: 40px;
-font-style:normal;
-font-size: 20px;
-margin-bottom: 20px;
-/* identical to box height */
-
-
-color: #FFFFFF;
-display: flex;
-align-items: center;
-justify-content: center;
-
+    color: antiquewhite;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    font-style:normal;
+    font-size: 20px;
+    margin-bottom: 20px;
+    /* identical to box height */
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .content {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(191, 191, 191, 0.1);
     border-radius: 10px;
     padding: 20px;
 }
@@ -130,3 +125,29 @@ justify-content: center;
     margin-top: 10px;
 }
 
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
+    color:gainsboro;
+}
+
+li {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
+    color:gainsboro;
+}
+
+#sub {
+    background: rgba(255, 255, 255, 0.1);
+    color: #FBD38D;
+    font-weight:400;
+}
+
+.first {
+    color:white;
+}
+.name {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
