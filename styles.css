@@ -186,3 +186,21 @@ margin: 10px;
 .contact {
     margin-bottom: 40px;
 }
+
+
+.con2 {
+margin: 40px;
+}
+
+.boxes {
+    display:flex;
+}
+.center2 {
+    align-items: center;
+    justify-content: center; 
+}
+
+
+#center {
+    justify-content: center; 
+}
