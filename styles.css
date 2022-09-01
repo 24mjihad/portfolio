@@ -204,3 +204,19 @@ margin: 40px;
 #center {
     justify-content: center; 
 }
+
+
+#projects {
+    display: block;
+}
+
+
+.more {
+    margin-top: 20px;
+    font-size: 50px;
+    color:#FBD38D;
+    font-style: italic;
+}
+.more:hover {
+    color: cadetblue;
+}
